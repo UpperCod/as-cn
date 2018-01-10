@@ -1,0 +1,22 @@
+{
+  "name": "as-cn",
+  "version": "0.0.1",
+  "description": "This small function allows you to manage class names",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uppercod/as-cn.git"
+  },
+  "author": "Matias Trujillo Olivares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uppercod/as-cn/issues"
+  },
+  "homepage": "https://github.com/uppercod/as-cn#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
