@@ -1,8 +1,12 @@
 {
   "name": "as-cn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This small function allows you to manage class names",
-  "main": "index.js",
+  "main": "build/cjs.js",
+  "module": "build/cjs.js",
+  "umd:main": "build/umd.js",
+  "jsnext:main": "build/cjs.js",
+  "source": "src/index.js",
   "scripts": {
     "test": "jest"
   },
@@ -17,6 +21,10 @@
   },
   "homepage": "https://github.com/uppercod/as-cn#readme",
   "devDependencies": {
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "rollup": "^0.45.2",
+    "rollup-plugin-buble": "^0.17.0",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0"
   }
 }

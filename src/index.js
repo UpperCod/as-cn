@@ -1,4 +1,4 @@
-export default function (parent, define = parent, prefix = ''){
+export default function asCn(parent, define = parent, prefix = ''){
     return Object
             .keys(define)
             .map((prop)=>{
